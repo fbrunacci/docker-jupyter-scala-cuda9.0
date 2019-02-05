@@ -1,6 +1,6 @@
 FROM windj007/jupyter-keras-tools
 
-MAINTAINER Fabien Brunacci fbrunacci@gmail.com
+LABEL maintainer="fbrunacci@gmail.com"
 
 RUN apt-get clean && apt-get update
 
